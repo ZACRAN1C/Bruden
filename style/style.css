@@ -1,0 +1,28 @@
+:root{
+    --button-text: #292A33;
+    --main-color: #000;
+    --second-color: #FFF;
+}
+
+body{
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 300;
+    letter-spacing: 2.8px;
+}
+
+.container{
+
+}
+
+.logo{
+width: 125px;
+height: 27px;
+}
+
+.page{
+color: var(--main-color);
+letter-spacing: 0.9px;
+text-transform: capitalize;
+}
