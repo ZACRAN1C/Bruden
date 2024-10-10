@@ -29,3 +29,9 @@ blockquote{
 select{
     border: none;
 }
+
+button{
+    background-color: white;
+    padding: 0;
+    
+}

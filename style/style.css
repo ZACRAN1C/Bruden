@@ -13,7 +13,24 @@ body{
 }
 
 .container{
+max-width: 1160px;
+padding: 0 10px;
+margin: 0 auto;
+outline: solid red;
+}
 
+/* header */
+
+header{
+border-bottom: 1px solid rgba(0, 0, 0, 0.70);
+background-color: var(--second-color);
+}
+
+.header-box{
+    display: flex;
+    gap: 165px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
@@ -21,8 +38,65 @@ width: 125px;
 height: 27px;
 }
 
+.nav-points{
+    display: flex;
+    gap: 40px;
+}
+
 .page{
 color: var(--main-color);
 letter-spacing: 0.9px;
 text-transform: capitalize;
+}
+
+.header-points{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-text{
+    color: var(--main-color);
+
+/* Small button text */
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.7px;
+text-transform: capitalize;
+}
+
+/* main */
+
+.hero-breadcrumb{
+color: #7F7F7F;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+letter-spacing: 0.8px;
+text-transform: lowercase;
+}
+
+.hero-title{
+    color: var(--button-text);
+font-family: Cormorant;
+font-size: 42px;
+font-weight: 400;
+line-height: 130%; /* 54.6px */
+letter-spacing: 2.94px;
+text-transform: capitalize;
+}
+
+.hero-text{
+color: var(--main-color);
+font-size: 22px;
+line-height: 160%; /* 35.2px */
+letter-spacing: 2.2px;
+}
+
+.hero-bt{
+color: var(--second-color);
+line-height: normal;
+letter-spacing: 2.7px;
+text-transform: uppercase;
 }
