@@ -28,19 +28,25 @@ background-color: var(--second-color);
 
 .header-box{
     display: flex;
-    gap: 165px;
     align-items: center;
-    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .logo{
 width: 125px;
 height: 27px;
+margin-right: auto;
 }
 
 .nav-points{
     display: flex;
     gap: 40px;
+    margin-right: 165px;
+}
+
+.page:hover{
+    color: #DE1616;
 }
 
 .page{
@@ -55,10 +61,35 @@ text-transform: capitalize;
     align-items: center;
 }
 
-.header-text{
-    color: var(--main-color);
+.quantity-points{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
 
-/* Small button text */
+.quantity-point:nth-child(1){
+display: flex;
+width: 20px;
+height: 20px;
+background-color: red;
+border-radius: 10px;
+align-items: center;
+}
+
+.quantity{  
+color: var(--second-color);
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 160%; /* 25.6px */
+letter-spacing: 0.8px;
+text-transform: capitalize;
+padding: 4px 5px;
+}
+
+.quantity-text{
+color: var(--main-color);
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.7px;
@@ -95,8 +126,10 @@ letter-spacing: 2.2px;
 }
 
 .hero-bt{
+background: var(--button-text);
 color: var(--second-color);
 line-height: normal;
 letter-spacing: 2.7px;
 text-transform: uppercase;
+padding: 14px 28px;
 }
