@@ -427,6 +427,7 @@ font-weight: 500;
 letter-spacing: 0.7px;
 text-transform: capitalize;
 transform: rotate(-90deg);
+outline: violet;
 }
 
 .news-img{
@@ -663,4 +664,30 @@ font-style: normal;
 line-height: normal;
 letter-spacing: 0.8px;
 text-transform: capitalize;
+}
+
+
+
+/* shop */
+
+.hero-shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-points{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.shop-point{
+    width: 260px;
+    flex-basis: calc((100% - 80px) / 3);
+}
+
+.shop-img{
+    width: 260px;
+    height: 260px;
 }
