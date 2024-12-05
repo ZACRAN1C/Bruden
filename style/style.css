@@ -1071,8 +1071,14 @@ letter-spacing: 0.8px;
 text-transform: capitalize;
 }
 
-.posts-point{
+.posts-points{
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.posts-point{
+    display: flex
 }
 
 .posts-img{
