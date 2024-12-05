@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,166 +24,272 @@
     />
     <link rel="stylesheet" href="../style/reset.css" />
     <link rel="stylesheet" href="../style/style.css" />
-    <title>Document</title>
-</head>
-<body>
+    <title>Bruden</title>
+  </head>
+  <body>
     <header>
-        <div class="container header-box">
-          <img src="./images/logo.png" alt="logo" class="logo" />
-          <nav class="navigation">
-            <ul class="nav-points">
-              <li class="nav-point">
-                <a href="./index.html" class="page">Home</a>
+      <div class="container header-box">
+        <img src="../images/logo.png" alt="logo" class="logo" />
+        <nav class="navigation">
+          <ul class="nav-points">
+            <li class="nav-point">
+              <a href="../index.html" class="page">Home</a>
+            </li>
+            <li class="nav-point">
+              <a href="./shop.html" class="page">Shop</a>
+            </li>
+            <li class="nav-point">
+              <a href="./blog.html" class="page">Blog</a>
+            </li>
+            <li class="nav-point">
+              <a href="./about.html" class="page">About Us</a>
+            </li>
+            <li class="nav-point">
+              <a href="./contact.html" class="page">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-points">
+          <li class="header-point">
+            <a href="" class="header-link"
+              ><img
+                src="../images/instagram.png"
+                alt="instagram"
+                class="header-img"
+            /></a>
+          </li>
+          <li class="header-point">
+            <button class="header-bt">
+              <img src="../images/search.png" alt="search" class="header-img" />
+            </button>
+          </li>
+          <li class="header-point">
+            <button class="header-bt">
+              <img
+                src="../images/account.png"
+                alt="account"
+                class="header-img"
+              />
+            </button>
+          </li>
+          <li class="header-point">
+            <button class="header-bt">
+              <img src="../images/cart.png" alt="cart" class="header-img" />
+            </button>
+          </li>
+        </ul>
+        <ul class="quantity-points">
+          <li class="quantity-point">
+            <span class="quantity">0</span>
+          </li>
+          <li class="quantity-point">
+            <p class="quantity-text">$ 0.00</p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="contacts">
+        <div class="container contacts-hero">
+          <h1 class="contacts-title">Contact Us</h1>
+          <div class="contacts-box">
+            <aside class="left-side">
+              <h2 class="left-title">Our contact</h2>
+              <ul class="left-points">
+                <li class="left-point">
+                  <h3 class="left-name">Address:</h3>
+                  <p class="left-text">Street, Town, ZIP code</p>
+                </li>
+                <li class="left-point">
+                  <h3 class="left-name">Phone numbers:</h3>
+                  <p class="left-text">+1 - 000 - 000 - 0000</p>
+                </li>
+                <li class="left-point">
+                  <h3 class="left-name">Email:</h3>
+                  <p class="left-text">email@mail.com</p>
+                </li>
+              </ul>
+            </aside>
+            <div class="fill-box">
+              <h2 class="fill-title">Leave a reply</h2>
+              <ul class="fill-points">
+                <li class="fill-point">
+                  <label class="fill-lable" for="name">Your Name</label
+                  ><input class="fill-input" id="name" type="text" />
+                </li>
+                <li class="fill-point">
+                  <label class="fill-lable" for="email">Your E-mail</label
+                  ><input class="fill-input" id="email" type="text" />
+                </li>
+                <li class="fill-point">
+                  <label class="fill-lable" for="subject">Subject</label
+                  ><input class="fill-input" id="subject" type="text" />
+                </li>
+                <li class="fill-point">
+                  <label class="fill-lable" for="massage"
+                    >Your Message (Optional)</label
+                  ><input class="fill-input" id="massage" type="text" />
+                </li>
+                <li class="fill-point">
+                  <button class="fill-bt" type="button">SHOP NOW</button>
+                </li>
+              </ul>
+            </div>
+            <aside class="right-side">
+              <h2 class="right-title">Archives</h2>
+              <ul class="right-points">
+                <li class="right-point">
+                  <h3 class="right-text">March 2022</h3>
+                  <p class="right-text">(1)</p>
+                </li>
+                <li class="right-point">
+                  <h3 class="right-text">February 2022</h3>
+                  <p class="right-text">(2)</p>
+                </li>
+                <li class="right-point">
+                  <h3 class="right-text">January 2022</h3>
+                  <p class="right-text">(3)</p>
+                </li>
+              </ul>
+              <h2 class="right-title">Categories</h2>
+              <ul class="right-points">
+                <li class="right-point">
+                  <h3 class="right-text">Electric</h3>
+                  <p class="right-text">(3)</p>
+                </li>
+                <li class="right-point">
+                  <h3 class="right-text">Fan</h3>
+                  <p class="right-text">(2)</p>
+                </li>
+                <li class="right-point">
+                  <h3 class="right-text">Machine</h3>
+                  <p class="right-text">(2)</p>
+                </li>
+              </ul>
+              <h2 class="right-title">Recent Posts</h2>
+              <ul class="posts-points">
+                <li class="posts-point">
+                  <img
+                    class="posts-img"
+                    src="../images/girl-cont.jpg"
+                    alt="girl"
+                  />
+                  <div>
+                    <h3 class="posts-name">Bruden Mode ...</h3>
+                    <p class="posts-text">April 3, 2022</p>
+                  </div>
+                </li>
+                <li class="posts-point">
+                  <img
+                    class="posts-img"
+                    src="../images/girl-cont.jpg"
+                    alt="girl"
+                  />
+                  <div>
+                    <h3 class="posts-name">Bruden Mode ...</h3>
+                    <p class="posts-text">April 3, 2022</p>
+                  </div>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <img class="contacts-img" src="../images/map.jpg" alt="map" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-box">
+        <ul class="footer-points">
+          <li class="footer-point">
+            <img src="../images/logo.png" alt="logo" class="footer-logo" />
+            <ul class="slidebars">
+              <li class="slidebar">
+                <img
+                  src="../images/instagram.png"
+                  alt="instagram"
+                  class="footer-img"
+                />
+                <a href="" class="footer-link">@brudenmtl</a>
               </li>
-              <li class="nav-point">
-                <a href="" class="page">Shop</a>
-              </li>
-              <li class="nav-point">
-                <a href="" class="page">Blog</a>
-              </li>
-              <li class="nav-point">
-                <a href="" class="page">About Us</a>
-              </li>
-              <li class="nav-point">
-                <a href="" class="page">Contact Us</a>
+              <li class="slidebar">
+                <p class="footer-text">
+                  ©2022 by Bruden Mode. Proudly created with
+                </p>
               </li>
             </ul>
-          </nav>
-          <ul class="header-points">
-            <li class="header-point">
-              <a href="" class="header-link"
-                ><img
-                  src="./images/instagram.png"
-                  alt="instagram"
-                  class="header-img"
-              /></a>
-            </li>
-            <li class="header-point">
-              <button class="header-bt">
-                <img src="./images/search.png" alt="search" class="header-img" />
-              </button>
-            </li>
-            <li class="header-point">
-              <button class="header-bt">
-                <img
-                  src="./images/account.png"
-                  alt="account"
-                  class="header-img"
-                />
-              </button>
-            </li>
-            <li class="header-point">
-              <button class="header-bt">
-                <img src="./images/cart.png" alt="cart" class="header-img" />
-              </button>
-            </li>
-          </ul>
-          <ul class="quantity-points">
-            <li class="quantity-point">
-              <span class="quantity">0</span>
-            </li>
-            <li class="quantity-point">
-              <p class="quantity-text">$ 0.00</p>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <main>
-
-      </main>
-      <footer>
-        <div class="container footer-box">
-          <ul class="footer-points">
-            <li class="footer-point">
-              <img src="./images/logo.png" alt="logo" class="footer-logo" />
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <img
-                    src="./images/instagram.png"
-                    alt="instagram"
-                    class="footer-img"
-                  />
-                  <a href="" class="footer-link">@brudenmtl</a>
-                </li>
-                <li class="slidebar">
-                  <p class="footer-text">
-                    ©2022 by Bruden Mode. Proudly created with
-                  </p>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Shop</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Bags</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Belts</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Sunglasses</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Account</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Orders</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Checkout</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">My Account</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Account Details</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Information</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">FAQ’s</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Contact Us</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Privacy Policy</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Return policy</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Shipping Policy</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Terms and Conditions</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Contacts</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">email@mail.com</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">+1-000-000-0000</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link"
-                    >Bld, Street, town, ZIP Code
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </footer>
-</body>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Shop</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Bags</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Belts</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Sunglasses</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Account</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Orders</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Checkout</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">My Account</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Account Details</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Information</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">FAQ’s</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Contact Us</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Privacy Policy</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Return policy</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Shipping Policy</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Terms and Conditions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Contacts</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">email@mail.com</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">+1-000-000-0000</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link"
+                  >Bld, Street, town, ZIP Code
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

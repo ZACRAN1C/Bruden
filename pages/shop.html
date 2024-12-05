@@ -36,16 +36,16 @@
               <a href="../index.html" class="page">Home</a>
             </li>
             <li class="nav-point">
-              <a href="" class="page">Shop</a>
+              <a href="./shop.html" class="page">Shop</a>
             </li>
             <li class="nav-point">
-              <a href="" class="page">Blog</a>
+              <a href="./blog.html" class="page">Blog</a>
             </li>
             <li class="nav-point">
-              <a href="" class="page">About Us</a>
+              <a href="./about.html" class="page">About Us</a>
             </li>
             <li class="nav-point">
-              <a href="" class="page">Contact Us</a>
+              <a href="./contact.html" class="page">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -92,73 +92,98 @@
       <section class="shop">
         <div class="container hero-shop">
           <h1 class="shop-title">Shop</h1>
-          <div>
-            <p class="shop-filter">Showing 1–12 of 15 results</p>
-            <select name="filters" id="filters" class="shop-options">
-              <option value="Default sorting" class="shop-option">
-                Default sorting
-              </option>
-            </select>
+          <div class="shop-box">
+            <aside class="side menu">
+              <h2 class="side-title">Filter by price</h2>
+              <button type="button" class="side-bt">filter</button>
+              <p class="side-price">Price $30 - $110</p>
+              <h2 class="side-title">Product tags</h2>
+              <ul class="buttons-points">
+                <li class="buttons-point">
+                  <button type="button" class="buttons-bt">Bags</button>
+                </li>
+                <li class="buttons-point">
+                  <button type="button" class="buttons-bt">Sunglasses</button>
+                </li>
+                <li class="buttons-point">
+                  <button type="button" class="buttons-bt">Belts</button>
+                </li>
+              </ul>
+            </aside>
+            <div>
+              <div class="filter-box">
+                <p class="shop-filter">Showing 1–12 of 15 results</p>
+                <select name="filters" id="filters" class="shop-options">
+                  <option value="Default sorting" class="shop-option">
+                    Default sorting
+                  </option>
+                </select>
+              </div>
+              <ul class="shop-points">
+                <li class="shop-point">
+                  <img
+                    src="../images/1-backpack.jpg"
+                    alt="red-backpack"
+                    class="shop-img"
+                  />
+                  <h2 class="shop-name">Bruden's Backpack</h2>
+                  <p class="shop-price">C$ 66.49</p>
+                </li>
+                <li class="shop-point">
+                  <img
+                    src="../images/bags.jpg"
+                    alt="black-backpack"
+                    class="shop-img"
+                  />
+                  <h2 class="shop-name">Bruden's Backpack</h2>
+                  <p class="shop-price">C$ 66.49</p>
+                </li>
+                <li class="shop-point">
+                  <img src="../images/belt.jpg" alt="belt" class="shop-img" />
+                  <h2 class="shop-name">Bruden Belt</h2>
+                  <p class="shop-price">C$ 24.49</p>
+                </li>
+                <li class="shop-point">
+                  <img
+                    src="../images/pink-backpack.jpg"
+                    alt="pink-backpack"
+                    class="shop-img"
+                  />
+                  <h2 class="shop-name">Sweet Pink Bruden Backpack</h2>
+                  <p class="shop-price">C$ 99.99</p>
+                </li>
+                <li class="shop-point">
+                  <img
+                    src="../images/mtl-glass.jpg"
+                    alt="mtl-glasses"
+                    class="shop-img"
+                  />
+                  <h2 class="shop-name">MTL</h2>
+                  <p class="shop-price">C$ 49.99</p>
+                </li>
+                <li class="shop-point">
+                  <img
+                    src="../images/la-glass.jpg"
+                    alt="la-glasses"
+                    class="shop-img"
+                  />
+                  <h2 class="shop-name">LA</h2>
+                  <p class="shop-price">C$ 35.00</p>
+                </li>
+              </ul>
+              <ul class="page-points">
+                <li class="page-point">
+                  <button class="page-bt" type="button">1</button>
+                </li>
+                <li class="page-point">
+                  <button class="page-bt" type="button">2</button>
+                </li>
+                <li class="page-point">
+                  <button type="button" class="page-bt">></button>
+                </li>
+              </ul>
+            </div>
           </div>
-          <ul class="shop-points">
-            <li class="shop-point">
-              <img
-                src="../images/1-backpack.jpg"
-                alt="red-backpack"
-                class="shop-img"
-              />
-              <h2 class="shop-name">Bruden's Backpack</h2>
-              <p class="shop-price">C$ 66.49</p>
-            </li>
-            <li class="shop-point">
-              <img
-                src="../images/bags.jpg"
-                alt="black-backpack"
-                class="shop-img"
-              />
-              <h2 class="shop-name">Bruden's Backpack</h2>
-              <p class="shop-price">C$ 66.49</p>
-            </li>
-            <li class="shop-point">
-              <img src="../images/belt.jpg" alt="belt" class="shop-img" />
-              <h2 class="shop-name">Bruden Belt</h2>
-              <p class="shop-price">C$ 24.49</p>
-            </li>
-            <li class="shop-point">
-              <img
-                src="../images/pink-backpack.jpg"
-                alt="pink-backpack"
-                class="shop-img"
-              />
-              <h2 class="shop-name">Sweet Pink Bruden Backpack</h2>
-              <p class="shop-price">C$ 99.99</p>
-            </li>
-            <li class="shop-point">
-              <img
-                src="../images/mtl-glass.jpg"
-                alt="mtl-glasses"
-                class="shop-img"
-              />
-              <h2 class="shop-name">MTL</h2>
-              <p class="shop-price">C$ 49.99</p>
-            </li>
-            <li class="shop-point">
-              <img
-                src="../images/la-glass.jpg"
-                alt="la-glasses"
-                class="shop-img"
-              />
-              <h2 class="shop-name">LA</h2>
-              <p class="shop-price">C$ 35.00</p>
-            </li>
-          </ul>
-          <ul>
-            <li><button type="button">1</button></li>
-            <li><button type="button">2</button></li>
-            <li>
-              <button type="button"><img src="" alt="" /></button>
-            </li>
-          </ul>
         </div>
       </section>
       <section class="registration">
@@ -176,7 +201,6 @@
         </div>
       </section>
     </main>
-    <aside></aside>
     <footer>
       <div class="container footer-box">
         <ul class="footer-points">

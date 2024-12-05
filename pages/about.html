@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,165 +25,315 @@
     <link rel="stylesheet" href="../style/reset.css" />
     <link rel="stylesheet" href="../style/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container header-box">
-          <img src="./images/logo.png" alt="logo" class="logo" />
-          <nav class="navigation">
-            <ul class="nav-points">
-              <li class="nav-point">
-                <a href="./index.html" class="page">Home</a>
+      <div class="container header-box">
+        <img src="../images/logo.png" alt="logo" class="logo" />
+        <nav class="navigation">
+          <ul class="nav-points">
+            <li class="nav-point">
+              <a href="../index.html" class="page">Home</a>
+            </li>
+            <li class="nav-point">
+              <a href="./shop.html" class="page">Shop</a>
+            </li>
+            <li class="nav-point">
+              <a href="./blog.html" class="page">Blog</a>
+            </li>
+            <li class="nav-point">
+              <a href="./about.html" class="page">About Us</a>
+            </li>
+            <li class="nav-point">
+              <a href="./contact.html" class="page">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-points">
+          <li class="header-point">
+            <a href="" class="header-link"
+              ><img
+                src="../images/instagram.png"
+                alt="instagram"
+                class="header-img"
+            /></a>
+          </li>
+          <li class="header-point">
+            <button class="header-bt">
+              <img src="../images/search.png" alt="search" class="header-img" />
+            </button>
+          </li>
+          <li class="header-point">
+            <button class="header-bt">
+              <img
+                src="../images/account.png"
+                alt="account"
+                class="header-img"
+              />
+            </button>
+          </li>
+          <li class="header-point">
+            <button class="header-bt">
+              <img src="../images/cart.png" alt="cart" class="header-img" />
+            </button>
+          </li>
+        </ul>
+        <ul class="quantity-points">
+          <li class="quantity-point">
+            <span class="quantity">0</span>
+          </li>
+          <li class="quantity-point">
+            <p class="quantity-text">$ 0.00</p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container about-hero">
+          <h1 class="page-title">About Us</h1>
+          <div class="about-box">
+            <div>
+              <p class="about-quote">
+                the perfect addition to their outfits with our range of
+                merchandise
+              </p>
+              <h2 class="about-title">
+                A brand of small products that make a huge difference to your
+                everyday look
+              </h2>
+              <p class="about-text">
+                We strive to produce quality fashionable products that adhere to
+                your comfort. We currently have 15 products in-store and more to
+                come!
+              </p>
+              <p class="about-text">
+                We will be the brand that produces small products that make a
+                huge difference in your day-to-day outfits. Having that
+                fashionable yet still comfortable piece to your fit can make a
+                big impact on your day-to-day life.
+              </p>
+            </div>
+            <div>
+              <img src="../images/girl-about.jpg" alt="girl" />
+            </div>
+          </div>
+          <ul class="description-points">
+            <li class="description-point">
+              <h3 class="description-title">Unique size for maximum comfort</h3>
+              <p class="description-text">
+                Our backpacks are not normal-sized. They are made in a mini size
+                since this really is an alternative to a handbag, not solely in
+                size but also in how you wear it.
+              </p>
+            </li>
+            <li class="description-point">
+              <h3 class="description-title">
+                A Healthy back and straight posture
+              </h3>
+              <p class="description-text">
+                Two shoulder straps distribute the weight more evenly across the
+                back. This will make women feel more comfortable while walking
+                and reduces the likelihood of muscle spasms and poor posture
+              </p>
+            </li>
+            <li class="description-point">
+              <h3 class="description-title">
+                An alternative to carrying a handbag
+              </h3>
+              <p class="description-text">
+                Our number one product, Bruden's Backpack was created for those
+                who need an alternative to wearing a handbag. Those who prefer
+                to wear their bags on their back than on just one shoulder
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="category">
+        <div class="container">
+          <h2 class="category-title">Shop by category</h2>
+          <ul class="category-points">
+            <li class="category-point">
+              <img src="../images/bags.jpg" alt="bags" class="category-img" />
+              <h3 class="point-title">bags</h3>
+            </li>
+            <li class="category-point">
+              <img
+                src="../images/glasses.jpg"
+                alt="glasses"
+                class="category-img"
+              />
+              <h3 class="point-title">Sunglasses</h3>
+            </li>
+            <li class="category-point">
+              <img src="../images/belt.jpg" alt="belt" class="category-img" />
+              <h3 class="point-title">Belts</h3>
+            </li>
+          </ul>
+          <div class="scroll">
+            <button class="category-bt">
+              <img src="../images/left.png" alt="arrow" class="arrow" />
+            </button>
+            <button class="category-bt">
+              <img src="../images/right.png" alt="arrow" class="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="container">
+          <h2 class="news-title">Latest news</h2>
+          <ul class="news-points">
+            <li class="news-point">
+              <div class="news-box">
+                <!-- <p class="news-ccalendar">April 3 - 2 min read</p> -->
+                <img src="../images/news1.jpg" alt="model-1" class="news-img" />
+              </div>
+              <div class="news-inf">
+                <h3 class="news-name">Bruden Mode Is Taking Care of Women</h3>
+                <p class="news-text">
+                  Bruden Mode in Montreal has taken a lot of time and put a lot
+                  of effort into helping women not only look great but to be
+                  more healthy.
+                </p>
+                <button class="news-more">Read more</button>
+              </div>
+            </li>
+            <li class="news-point">
+              <div class="news-box">
+                <!-- <p class="news-ccalendar">Mar 3 - 2 min read</p> -->
+                <img src="../images/news2.jpg" alt="model-2" class="news-img" />
+              </div>
+              <div class="news-inf">
+                <h3 class="news-name">Bruden Mode Accessories</h3>
+                <p class="news-text">
+                  Finding the perfect little thing that compliments your
+                  wardrobe can give you the confidence and the feeling you love
+                  to be your best.
+                </p>
+                <button class="news-more">Read more</button>
+              </div>
+            </li>
+            <li class="news-point">
+              <div class="news-box">
+                <!-- <p class="news-ccalendar">Jan 4 - 3 min read</p> -->
+                <img src="../images/news3.jpg" alt="model-3" class="news-img" />
+              </div>
+              <div class="news-inf">
+                <h3 class="news-name">Different Types of Backpacks</h3>
+                <p class="news-text">
+                  Different backpacks do different things and serve various
+                  purposes.
+                </p>
+                <button class="news-more">Read more</button>
+              </div>
+            </li>
+          </ul>
+          <div class="scroll">
+            <button class="news-bt">
+              <img src="../images/left.png" alt="arrow" class="arrow" />
+            </button>
+            <button class="news-bt">
+              <img src="../images/right.png" alt="arrow" class="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-box">
+        <ul class="footer-points">
+          <li class="footer-point">
+            <img src="../images/logo.png" alt="logo" class="footer-logo" />
+            <ul class="slidebars">
+              <li class="slidebar">
+                <img
+                  src="../images/instagram.png"
+                  alt="instagram"
+                  class="footer-img"
+                />
+                <a href="" class="footer-link">@brudenmtl</a>
               </li>
-              <li class="nav-point">
-                <a href="" class="page">Shop</a>
-              </li>
-              <li class="nav-point">
-                <a href="" class="page">Blog</a>
-              </li>
-              <li class="nav-point">
-                <a href="" class="page">About Us</a>
-              </li>
-              <li class="nav-point">
-                <a href="" class="page">Contact Us</a>
+              <li class="slidebar">
+                <p class="footer-text">
+                  ©2022 by Bruden Mode. Proudly created with
+                </p>
               </li>
             </ul>
-          </nav>
-          <ul class="header-points">
-            <li class="header-point">
-              <a href="" class="header-link"
-                ><img
-                  src="./images/instagram.png"
-                  alt="instagram"
-                  class="header-img"
-              /></a>
-            </li>
-            <li class="header-point">
-              <button class="header-bt">
-                <img src="./images/search.png" alt="search" class="header-img" />
-              </button>
-            </li>
-            <li class="header-point">
-              <button class="header-bt">
-                <img
-                  src="./images/account.png"
-                  alt="account"
-                  class="header-img"
-                />
-              </button>
-            </li>
-            <li class="header-point">
-              <button class="header-bt">
-                <img src="./images/cart.png" alt="cart" class="header-img" />
-              </button>
-            </li>
-          </ul>
-          <ul class="quantity-points">
-            <li class="quantity-point">
-              <span class="quantity">0</span>
-            </li>
-            <li class="quantity-point">
-              <p class="quantity-text">$ 0.00</p>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <main>
-
-      </main>
-      <footer>
-        <div class="container footer-box">
-          <ul class="footer-points">
-            <li class="footer-point">
-              <img src="./images/logo.png" alt="logo" class="footer-logo" />
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <img
-                    src="./images/instagram.png"
-                    alt="instagram"
-                    class="footer-img"
-                  />
-                  <a href="" class="footer-link">@brudenmtl</a>
-                </li>
-                <li class="slidebar">
-                  <p class="footer-text">
-                    ©2022 by Bruden Mode. Proudly created with
-                  </p>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Shop</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Bags</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Belts</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Sunglasses</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Account</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Orders</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Checkout</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">My Account</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Account Details</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Information</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">FAQ’s</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Contact Us</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Privacy Policy</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Return policy</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Shipping Policy</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">Terms and Conditions</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-point">
-              <h3 class="footer-page">Contacts</h3>
-              <ul class="slidebars">
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">email@mail.com</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link">+1-000-000-0000</a>
-                </li>
-                <li class="slidebar">
-                  <a href="" class="slidebar-link"
-                    >Bld, Street, town, ZIP Code
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </footer>
-</body>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Shop</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Bags</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Belts</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Sunglasses</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Account</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Orders</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Checkout</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">My Account</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Account Details</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Information</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">FAQ’s</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Contact Us</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Privacy Policy</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Return policy</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Shipping Policy</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">Terms and Conditions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-point">
+            <h3 class="footer-page">Contacts</h3>
+            <ul class="slidebars">
+              <li class="slidebar">
+                <a href="" class="slidebar-link">email@mail.com</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link">+1-000-000-0000</a>
+              </li>
+              <li class="slidebar">
+                <a href="" class="slidebar-link"
+                  >Bld, Street, town, ZIP Code
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
