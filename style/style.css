@@ -417,7 +417,7 @@ justify-content: flex-start;
 
 .news-box{
 display: flex;
-
+position: relative;
 }
 
 .news-ccalendar{
@@ -428,6 +428,9 @@ letter-spacing: 0.7px;
 text-transform: capitalize;
 transform: rotate(-90deg);
 outline: violet;
+position: absolute;
+top: 140px;
+left: -80px;
 }
 
 .news-img{
